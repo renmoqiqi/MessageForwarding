@@ -1,5 +1,5 @@
 # MessageForwarding
-消息转发
+
 有时候我们常常看到一个cash 信息，意思是这个对象不存在这个方法，你向这个对象发送消息就会crash。
 
 我们除了用respondsToSelector 这个方法来判断这个对象是否响应这个方法，还可以用消息转发来解决。
